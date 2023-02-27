@@ -7,75 +7,75 @@ yourname = null;
 yourfamily = null;
 
 if(selection1 = confirm("No text" + END + "Yes or No?")) {
-    yourname = prompt("YourName");
-    yourfamily = prompt("YourFamily");
-    yourclass = prompt("Yourclass");
+    yourname = prompt("Enter your name");
+    yourfamily = prompt("Enter your last name");
+    yourclass = prompt("Enter your class");
 
     if(!yourclass || !yourname || !yourfamily) {
-        alert("Text");
+        alert("You have not entered all the data, please refresh the page");
     }
 }
 else {
     if(!selection1) {
-        alert("Please reload the page");
+        alert("You refused to verify the data. Reload the page");
     }
 }
 
 if(yourclass && yourname && yourfamily) {
-    selection2 = confirm("Text" + END + "YourName - " + yourname + END + "YourFamily - " + yourfamily + END + "YourClass - " + yourclass + END + "Okay?")
+    selection2 = confirm("Text" + END + "Your name - " + yourname + END + "Your last name - " + yourfamily + END + "Your class - " + yourclass + END + "Is that right?")
 
     if(!selection2) {
-        alert("Please reload the page");
+        alert("You refused to verify the data. Reload the page");
     }
 }
 
 var cplpl, pyth, csh, javs, typs, selection3;
 
 if(selection2) {
-    selection3 = confirm("Programming language" + END + "Yes or No?")
+    selection3 = confirm("Next, you will be asked questions about programming languages, are you ready?")
 
-    cplpl = confirm("C++?");
-    pyth = confirm("Pythone?");
-    csh = confirm("C#?");
-    javs = confirm("JavaScript?");
-    typs = confirm("TypeScript?");
+    cplpl = confirm("Do you prefer the language C++?");
+    pyth = confirm(" Do you prefer the language Pythone?");
+    csh = confirm("Do you prefer the language C#?");
+    javs = confirm("Do you prefer the language JavaScript?");
+    typs = confirm("Do you prefer the language TypeScript?");
 
     var lclplpl, lpyth, lcsh, ljavs, ltyps;
 
     if(cplpl) {
         function cplplyes() {
-            lclplpl = prompt("Text");
+            lclplpl = prompt("Describe what you like about 'C++'");
 
         }
         cplplyes();
     }
     if(pyth) {
         function pythyes() {
-            lpyth = prompt("Text");
+            lpyth = prompt("Describe what you like about 'Pythone'");
         }
         pythyes();
     }
     if(csh) {
         function cshyes() {
-            lcsh = prompt("Text");
+            lcsh = prompt("Describe what you like about 'C#'");
         }
         cshyes();
     }
     if(javs) {
         function javsyes() {
-            ljavs = prompt("Text");
+            ljavs = prompt("Describe what you like about 'JavaScript'");
         }
         javsyes();
     }
     if(typs) {
         function typsyes() {
-            ltyps = prompt("Text");
+            ltyps = prompt("Describe what you like about 'TypeScript'");
         }
         typsyes();
     }
 
     if(!selection3) {
-        alert("Please reload the page");
+        alert("You refused to verify the data. Reload the page");
     }
 }
 
@@ -91,8 +91,3 @@ console.log(pyth);
 console.log(csh);
 console.log(javs);
 console.log(typs);
-
-console.log();
-console.log();
-console.log();
-console.log();
