@@ -91,3 +91,8 @@ console.log(pyth);
 console.log(csh);
 console.log(javs);
 console.log(typs);
+
+console.log();
+console.log();
+console.log();
+console.log();
