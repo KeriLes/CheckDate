@@ -13,6 +13,10 @@ body {
     display: block;
 }
 
+#reqesttext {
+    color: #cecece;
+}
+
 #inputfield {
     width: 200px;
 	font-size: 13px;
